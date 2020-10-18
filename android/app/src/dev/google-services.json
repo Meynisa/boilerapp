@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "281048378117",
+    "firebase_url": "https://paruhwaktu-mobile-apps.firebaseio.com",
+    "project_id": "paruhwaktu-mobile-apps",
+    "storage_bucket": "paruhwaktu-mobile-apps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:281048378117:android:29d2491c43d0e0e38b656c",
+        "android_client_info": {
+          "package_name": "com.ivo.paruhwaktu.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "281048378117-e9qrr9k9aofgas9q8104vuvscjs48q7i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ivo.paruhwaktu.dev",
+            "certificate_hash": "5de1a3d7104fe496628d4a23a3e87b14ba3e8da0"
+          }
+        },
+        {
+          "client_id": "281048378117-gngh8be4lcohegnb8c210dd36n2buh92.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgy9xmpeHVEVDAZCbynQaludlO2KneCCg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "281048378117-gngh8be4lcohegnb8c210dd36n2buh92.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

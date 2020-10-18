@@ -1,0 +1,15 @@
+//
+//  prod.xcconfig
+//  Runner
+//
+//  Created by Meynisa on 04/02/20.
+//  Copyright © 2020 The Chromium Authors. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "Generated.xcconfig"
+PRODUCT_BUNDLE_IDENTIFIER=com.ivo.paruhwaktu
+FLUTTER_TARGET=lib/main_prod.dart
+APP_DISPLAY_NAME=Paruhwaktu

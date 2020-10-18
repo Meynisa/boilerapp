@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>924948361280-vko40ni4ircqm9itcgrlohivkm4kbj32.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.924948361280-vko40ni4ircqm9itcgrlohivkm4kbj32</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>924948361280-aeqc90u8qnl8e810dusv6000g73sgfd0.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAf3tQXfhlaPExtBF8CkpX1JaK61uNwS6E</string>
+	<key>GCM_SENDER_ID</key>
+	<string>924948361280</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.ivo.paruhwaktu</string>
+	<key>PROJECT_ID</key>
+	<string>paruhwaktu-dev-release</string>
+	<key>STORAGE_BUCKET</key>
+	<string>paruhwaktu-dev-release.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:924948361280:ios:74d59c29c159d877436fa5</string>
+	<key>DATABASE_URL</key>
+	<string>https://paruhwaktu-dev-release.firebaseio.com</string>
+</dict>
+</plist>

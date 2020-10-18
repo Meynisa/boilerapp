@@ -1,0 +1,64 @@
+ext {
+    // The following are only a few examples of the types of properties you can define.
+    compileSdkVersion = 30
+    // You can also use this to specify versions for dependencies. Having consistent
+    // versions between modules can avoid behavior conflicts.
+    supportLibVersion = "30.0.0"
+}
+
+buildscript {
+    ext.kotlin_version = '1.4.0'
+    repositories {
+        google()
+        jcenter()
+        maven {
+            url 'https://maven.fabric.io/public'
+        }
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.0.1'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath 'com.google.gms:google-services:4.3.3'
+        classpath 'io.fabric.tools:gradle:1.31.0'
+    }
+
+    subprojects {
+        project.configurations.all {
+            resolutionStrategy.eachDependency { details ->
+                if (details.requested.group == 'com.android.support'
+                        && !details.requested.name.contains('multidex') ) {
+                    details.useVersion "27.1.1"
+                }
+
+                if (details.requested.group == 'androidx.core'
+                        && !details.requested.name.contains('androidx') ) {
+                    details.useVersion "1.0.1"
+                }
+            }
+        }
+    }
+
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven {
+            url 'https://maven.fabric.io/public'
+        }
+    }
+}
+
+rootProject.buildDir = '../build'
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+subprojects {
+    project.evaluationDependsOn(':app')
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

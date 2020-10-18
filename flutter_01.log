@@ -1,0 +1,71 @@
+Flutter crash report; please file at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter --no-color build apk
+
+## exception
+
+ProcessException: ProcessException: Permission denied
+  Command: /Users/meynisa/Development/flutter/.pub-cache/hosted/pub.dartlang.org/adhara_socket_io-0.4.1/android/gradlew -I=/Users/meynisa/Development/flutter/packages/flutter_tools/gradle/aar_init_script.gradle -Pflutter-root=/Users/meynisa/Development/flutter -Poutput-dir=/Users/meynisa/AndroidStudioProjects/paruhwaktu-app-core/build/app -Pis-plugin=true -Ptarget-platform=android-arm,android-arm64,android-x64 assembleAarRelease
+
+```
+#0      _DefaultProcessUtils.run (package:flutter_tools/src/base/process.dart:266:37)
+<asynchronous suspension>
+#1      buildGradleAar (package:flutter_tools/src/android/gradle.dart:548:33)
+#2      buildPluginsAsAar (package:flutter_tools/src/android/gradle.dart:711:13)
+#3      buildGradleApp (package:flutter_tools/src/android/gradle.dart:257:11)
+#4      _AsyncAwaitCompleter.start (dart:async-patch/async_patch.dart:45:6)
+#5      buildGradleApp (package:flutter_tools/src/android/gradle.dart:218:28)
+#6      buildGradleApp (package:flutter_tools/src/android/gradle.dart:415:19)
+#7      _asyncThenWrapperHelper.<anonymous closure> (dart:async-patch/async_patch.dart:73:64)
+#8      _rootRunUnary (dart:async/zone.dart:1134:38)
+#9      _CustomZone.runUnary (dart:async/zone.dart:1031:19)
+#10     _FutureListener.handleValue (dart:async/future_impl.dart:139:18)
+#11     Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart:680:45)
+#12     Future._propagateToListeners (dart:async/future_impl.dart:709:32)
+#13     Future._completeWithValue (dart:async/future_impl.dart:524:5)
+#14     Future._asyncComplete.<anonymous closure> (dart:async/future_impl.dart:554:7)
+#15     _rootRun (dart:async/zone.dart:1126:13)
+#16     _CustomZone.run (dart:async/zone.dart:1023:19)
+#17     _CustomZone.runGuarded (dart:async/zone.dart:925:7)
+#18     _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:965:23)
+#19     _microtaskLoop (dart:async/schedule_microtask.dart:43:21)
+#20     _startMicrotaskLoop (dart:async/schedule_microtask.dart:52:5)
+#21     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:118:13)
+#22     _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:175:5)
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel stable, v1.12.13+hotfix.9, on Mac OS X 10.15.3 19D76, locale en-ID)
+    • Flutter version 1.12.13+hotfix.9 at /Users/meynisa/Development/flutter
+    • Framework revision f139b11009 (4 weeks ago), 2020-03-30 13:57:30 -0700
+    • Engine revision af51afceb8
+    • Dart version 2.7.2
+
+[✓] Android toolchain - develop for Android devices (Android SDK version 29.0.3)
+    • Android SDK at /Users/meynisa/Library/Android/sdk
+    • Android NDK location not configured (optional; useful for native profiling support)
+    • Platform android-29, build-tools 29.0.3
+    • Java binary at: /Applications/Android Studio.app/Contents/jre/jdk/Contents/Home/bin/java
+    • Java version OpenJDK Runtime Environment (build 1.8.0_212-release-1586-b4-5784211)
+    • All Android licenses accepted.
+
+[✓] Xcode - develop for iOS and macOS (Xcode 11.3.1)
+    • Xcode at /Applications/Xcode.app/Contents/Developer
+    • Xcode 11.3.1, Build version 11C504
+    • CocoaPods version 1.8.4
+
+[✓] Android Studio (version 3.6)
+    • Android Studio at /Applications/Android Studio.app/Contents
+    • Flutter plugin version 45.1.1
+    • Dart plugin version 192.7761
+    • Java version OpenJDK Runtime Environment (build 1.8.0_212-release-1586-b4-5784211)
+
+[✓] Connected device (1 available)
+    • iPhone 11 Pro Max • 554B0492-8CC5-44D4-AB1C-A036BB55E9F0 • ios • com.apple.CoreSimulator.SimRuntime.iOS-13-3 (simulator)
+
+• No issues found!
+```

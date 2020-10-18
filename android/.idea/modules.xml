@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android.iml" filepath="$PROJECT_DIR$/.idea/modules/android.iml" group="android" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1288422731/android-image_gallery_saver.iml" filepath="$PROJECT_DIR$/.idea/modules/-1288422731/android-image_gallery_saver.iml" group="android/image_gallery_saver" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="android/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1015871524/connectivity.iml" filepath="$PROJECT_DIR$/.idea/modules/1015871524/connectivity.iml" group="android/connectivity" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-119616309/file_picker.iml" filepath="$PROJECT_DIR$/.idea/modules/-119616309/file_picker.iml" group="android/file_picker" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1644989914/firebase_analytics.iml" filepath="$PROJECT_DIR$/.idea/modules/1644989914/firebase_analytics.iml" group="android/firebase_analytics" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/317065200/firebase_crashlytics.iml" filepath="$PROJECT_DIR$/.idea/modules/317065200/firebase_crashlytics.iml" group="android/firebase_crashlytics" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1242052400/flutter_inappwebview.iml" filepath="$PROJECT_DIR$/.idea/modules/1242052400/flutter_inappwebview.iml" group="android/flutter_inappwebview" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-454707184/flutter_local_notifications.iml" filepath="$PROJECT_DIR$/.idea/modules/-454707184/flutter_local_notifications.iml" group="android/flutter_local_notifications" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1041561310/flutter_money_formatter.iml" filepath="$PROJECT_DIR$/.idea/modules/1041561310/flutter_money_formatter.iml" group="android/flutter_money_formatter" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2121156668/image_picker.iml" filepath="$PROJECT_DIR$/.idea/modules/-2121156668/image_picker.iml" group="android/image_picker" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1650505404/path_provider.iml" filepath="$PROJECT_DIR$/.idea/modules/1650505404/path_provider.iml" group="android/path_provider" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-814785033/shared_preferences.iml" filepath="$PROJECT_DIR$/.idea/modules/-814785033/shared_preferences.iml" group="android/shared_preferences" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/416438516/url_launcher.iml" filepath="$PROJECT_DIR$/.idea/modules/416438516/url_launcher.iml" group="android/url_launcher" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-634256652/url_launcher_macos.iml" filepath="$PROJECT_DIR$/.idea/modules/-634256652/url_launcher_macos.iml" group="android/url_launcher_macos" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/590829227/url_launcher_web.iml" filepath="$PROJECT_DIR$/.idea/modules/590829227/url_launcher_web.iml" group="android/url_launcher_web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2074443630/webview_flutter.iml" filepath="$PROJECT_DIR$/.idea/modules/-2074443630/webview_flutter.iml" group="android/webview_flutter" />
+    </modules>
+  </component>
+</project>
